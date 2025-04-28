@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Sora';
+  src: url('./assets/fonts/Sora.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/Sora.ttf');
+}
+
+:root {
+  @theme {
+    --font-sora: 'Sora', 'Sans';
+    --font-dm-sans: 'DMSans';
+    --color-blue-light: #0649E7;
+    --color-blue-dark: #022183;
+    --color-white: #FEFEFE;
+    --color-grey: #EBF1FF;
+    --color-dark: #101010;
+  }
+}
