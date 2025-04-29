@@ -3,7 +3,7 @@ import PrimaryButton from "../components/PrimaryButton";
 
 const HeroSectionContent = () => {
   return (
-    <div className="w-[70%] h-[400px] mx-auto flex justify-between px-8">
+    <div className="w-[70%] h-[400px] mx-auto flex justify-between px-4">
       <div className="hero-left-wrapper flex flex-col justify-evenly h-full -space-y-2">
         <h1 className="font-sora text-[56px] font-[600] text-white leading-16">
           Land job interviews
