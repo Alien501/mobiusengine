@@ -2,6 +2,7 @@ import { PlayIcon, RightArrowIcon } from "../icons";
 import { ClientSayItem } from "./types";
 
 const ClientCard = ({link, content}: ClientSayItem) => {
+    console.log(link);
     return(
         <div className="h-[320px] w-[326px] bg-blue-light rounded-3xl p-[1.5px] relative">
             <div className="bg-white h-[180px] w-[99.9%] mx-auto rounded-3xl relative">
